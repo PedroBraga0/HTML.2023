@@ -1,0 +1,20 @@
+.menulateral {
+    display: inline-block;
+    background-color: rgb(255, 145, 0);
+    width: 20%;
+    height: 1000px;
+}
+
+.principal {
+    display: inline-block;
+    background-color: rgb(0, 255, 242);
+    width: 60%;
+    height: 1000px;
+}
+
+.Arquivo {
+    display: inline-block;
+    background-color: rgb(252, 143, 0);
+    width: 20%;
+    height: 1000px;
+}

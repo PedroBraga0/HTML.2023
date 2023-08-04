@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Tabela CSS</title>
+    <meta charset="utf-8" />
+    <style>
+        p .cor {
+            color: #ff0fff;
+            background-color: rgb(255, 1, 192);
+        }
+
+        .vermelho {
+            color: rgb(149, 92, 241);
+            background-color: #4decec;
+        }
+
+        .azul {
+            color: rgb(241, 226, 8);
+            background-color: burlywood;
+        }
+
+        .bgciano {
+            color: #f4f0f5;
+            background-color: rgb(12, 12, 12);
+        }
+
+        .pink {
+            color: rgb(243, 110, 1);
+            background-color: red;
+        }
+
+        .gray {
+            color: rgb(128, 128, 128);
+            background-color: #00FFFF;
+        }
+
+        .laranja {
+            color: orange;
+            background-color: bisque;
+        }
+    </style>
+
+    <head>
+
+    <body>
+        <table border="1px" bgcolor="white" height="10px" width="10%">
+            <tr>
+                <th>FRUTAS</th>
+                <th>VERDURAS</th>
+                <th>GRAOS</th>
+                <th>...</th>
+
+            </tr>
+            <tr>
+                <td class="laranja">MACA</td>
+                <td class="vermelho">ALFACE</td>
+                <td class="bgciano">ARROZ</td>
+                <th rowspan="3">3 linhas</th>
+            </tr>
+            <tr>
+                <td class="bgciano">LARANJA</td>
+                <td class="gray">BETERRABA</td>
+                <td class="azul">TRIGO</td>
+            </tr>
+            <tr>
+                <td colspan="3">3 Colunas</td>
+            </tr>
+
+    </body>
+</head>
