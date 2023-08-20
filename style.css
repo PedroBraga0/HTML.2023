@@ -1,0 +1,39 @@
+body{
+    background: linear-gradient(to bottom,#ff99cc,#e64949);
+    margin:0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+.conteiner{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+h1{
+    font-size: 3em;
+    color: white;
+    margin-top: 50px;
+}
+.imagens{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.imagens img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin: 50px;
+    border-radius: 90%;
+    border: 5px solid white;
+    box-shadow: 2px 2px 5px rgva(3,3,3,3.3) ;
+}
+.textos{
+    margin-top: 50px;
+}
+.textos p {
+    font-size:1.5em;
+    line-height: 1.5;
+    color:white
+}
